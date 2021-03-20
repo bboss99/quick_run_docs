@@ -1,0 +1,10 @@
+{
+    "root_dir": "",
+    "ttt_lines": 4,
+    "title_width": 200,
+    "title_height": 30,
+    "element_height": 25,
+    "element_width": 200,
+    "use_context_space": false,
+    "extra_buttons_on_menu": false
+}

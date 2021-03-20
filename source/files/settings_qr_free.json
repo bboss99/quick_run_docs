@@ -1,0 +1,14 @@
+{
+    "root_dir": "",
+    "ttt_lines": 4,
+    "element_height": 25,
+    "element_width": 200,
+    "element_space": 5,
+    "start_point": [-1,-1],
+    "normal_color": [0.1,0.1,0.1,1],
+    "hover_color": [0.15,0.15,0.15,1],
+    "direction": "down",
+    "clip_buttons": true,
+    "_show_help": true,
+    "screen_margin": [50,100]
+}

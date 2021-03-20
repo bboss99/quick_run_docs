@@ -1,0 +1,7 @@
+/some/path/in/e_drive/
+/user/desktop/test/
+/user/downloads/downloaded_from_net
+/user/downloads/other_user/
+/path/to/currently/working/project
+/user/documents/dropbox/
+/user/documents/git_repo/

@@ -1,0 +1,359 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-197011172-3', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+
+
+  <title>Multiple ui_elements functions &mdash; Quick Run Docs 1.0.0 documentation</title>
+  
+
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/tabs.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/contentui.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+        <script src="../_static/contentui.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Dynamic Menu" href="dynamic_menu.html" />
+    <link rel="prev" title="use_space" href="use_space.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Quick Run Docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/Installation.html">Download/Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/quick_start.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/quick_run_free.html">Quick Run Free</a></li>
+</ul>
+<p class="caption"><span class="caption-text">tuts</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tuts/basics.html">Basic Scripts (No UI)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tuts/boss_ui.html">Boss UI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tuts/array_modifier.html">Array Modifier Grid</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tuts/rename_selected.html">Rename Selected objects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tuts/turn_around_camera.html">Turntable Camera</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tuts/duplicator.html">Duplicator</a></li>
+</ul>
+<p class="caption"><span class="caption-text">More Features and Misc</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../common/toolTipImages.html">Tooltip Images</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../common/naming_conventions.html">Naming Convention</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../common/convert_script_to_addon.html">Convert Script To Addon</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Quick Run</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="qr_introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quick_run.html">Quick Run</a></li>
+<li class="toctree-l1"><a class="reference internal" href="menu.html">Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="change_root.html">ChangeRoot</a></li>
+<li class="toctree-l1"><a class="reference internal" href="use_space.html">use_space</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Multiple ui_elements functions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#example">Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#submenu-file-m">SubMenu file(_m_)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="dynamic_menu.html">Dynamic Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text_editor_scripts.html">Text Editor Scripts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="settings.html">Settings</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Advanced</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../misc/developer.html">Advanced Details</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../misc/future_update.html">Future Update</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Quick Run Docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Multiple ui_elements functions</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/qr/multiple_ui_elements.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="multiple-ui-elements-functions">
+<span id="mulitiple-ui-elements-title"></span><h1>Multiple ui_elements functions<a class="headerlink" href="#multiple-ui-elements-functions" title="Permalink to this headline">¶</a></h1>
+<p>There are times when you have to write one or few lines of code file to create a menu button entry.</p>
+<p>It requires creating a lot of files. They can be placed in a folder and you can copy/paste/share that folder just fine.</p>
+<p>but there is another way. See the example below to understand.</p>
+<div class="section" id="example">
+<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<p>Below are few one-liner scripts, to create plane, cube, circle, uv_sphere, ico_sphere and cylinder respectively.</p>
+<div class="literal-block-wrapper docutils container" id="id1">
+<div class="code-block-caption"><span class="caption-text">“plane.py”</span><a class="headerlink" href="#id1" title="Permalink to this code">¶</a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">bpy</span>
+<span class="n">bpy</span><span class="o">.</span><span class="n">ops</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">primitive_plane_add</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="id2">
+<div class="code-block-caption"><span class="caption-text">“cube.py”</span><a class="headerlink" href="#id2" title="Permalink to this code">¶</a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">bpy</span>
+<span class="n">bpy</span><span class="o">.</span><span class="n">ops</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">primitive_cube_add</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="id3">
+<div class="code-block-caption"><span class="caption-text">“circle.py”</span><a class="headerlink" href="#id3" title="Permalink to this code">¶</a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">bpy</span>
+<span class="n">bpy</span><span class="o">.</span><span class="n">ops</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">primitive_circle_add</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="id4">
+<div class="code-block-caption"><span class="caption-text">“uv_sphere.py”</span><a class="headerlink" href="#id4" title="Permalink to this code">¶</a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">bpy</span>
+<span class="n">bpy</span><span class="o">.</span><span class="n">ops</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">primitive_uv_sphere_add</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="id5">
+<div class="code-block-caption"><span class="caption-text">“ico_sphere.py”</span><a class="headerlink" href="#id5" title="Permalink to this code">¶</a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">bpy</span>
+<span class="n">bpy</span><span class="o">.</span><span class="n">ops</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">primitive_ico_sphere_add</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="id6">
+<div class="code-block-caption"><span class="caption-text">“cylinder.py”</span><a class="headerlink" href="#id6" title="Permalink to this code">¶</a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">bpy</span>
+<span class="n">bpy</span><span class="o">.</span><span class="n">ops</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">primitive_cylinder_add</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p class="rubric" id="mulitiple-ui-elements-example">You can put them in one file as shown below.</p>
+<div class="literal-block-wrapper docutils container" id="id7">
+<div class="code-block-caption"><span class="caption-text">“create_mesh_obj.py”</span><a class="headerlink" href="#id7" title="Permalink to this code">¶</a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">bpy</span>
+<span class="k">def</span> <span class="nf">ui_elements_plane</span><span class="p">(</span><span class="n">op</span><span class="p">):</span>
+    <span class="n">bpy</span><span class="o">.</span><span class="n">ops</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">primitive_plane_add</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">ui_elements_cube</span><span class="p">(</span><span class="n">op</span><span class="p">):</span>
+    <span class="n">bpy</span><span class="o">.</span><span class="n">ops</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">primitive_cube_add</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">ui_elements_circle</span><span class="p">(</span><span class="n">op</span><span class="p">):</span>
+    <span class="n">bpy</span><span class="o">.</span><span class="n">ops</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">primitive_circle_add</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">ui_elements_uv_sphere</span><span class="p">(</span><span class="n">op</span><span class="p">):</span>
+    <span class="n">bpy</span><span class="o">.</span><span class="n">ops</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">primitive_uv_sphere_add</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">ui_elements_ico_sphere</span><span class="p">(</span><span class="n">op</span><span class="p">):</span>
+    <span class="n">bpy</span><span class="o">.</span><span class="n">ops</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">primitive_ico_sphere_add</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">ui_elements_cylinder</span><span class="p">(</span><span class="n">op</span><span class="p">):</span>
+    <span class="n">bpy</span><span class="o">.</span><span class="n">ops</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">primitive_cylinder_add</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<p>Now you will see a menu entry named <code class="docutils literal notranslate"><span class="pre">create_mesh_obj.py</span></code>. When clicked. You would see a menu pop up.</p>
+<p>You can see every function name is prefixed with <code class="docutils literal notranslate"><span class="pre">ui_elements_</span></code> . You get a menu entry for all
+the functions prefixed with <code class="docutils literal notranslate"><span class="pre">ui_elements_</span></code>. So for function <code class="docutils literal notranslate"><span class="pre">ui_elements_plane</span></code> you get the menu
+entry plane.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>it’s <code class="docutils literal notranslate"><span class="pre">ui_elements_</span></code> there is a underscore, which is must. <code class="docutils literal notranslate"><span class="pre">ui_elements_plane</span></code> is easier to read than
+<code class="docutils literal notranslate"><span class="pre">ui_elementsplane</span></code> which won’t work.</p>
+</div>
+</div>
+<div class="section" id="submenu-file-m">
+<h2>SubMenu file(_m_)<a class="headerlink" href="#submenu-file-m" title="Permalink to this headline">¶</a></h2>
+<p>If you just prefix your file name with <code class="docutils literal notranslate"><span class="pre">_m_</span></code> then instead of pop-up, you will get a submenu, which can be handy.
+in the above example file name should be <code class="docutils literal notranslate"><span class="pre">_m_create_mesh_obj.py</span></code>.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="dynamic_menu.html" class="btn btn-neutral float-right" title="Dynamic Menu" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="use_space.html" class="btn btn-neutral float-left" title="use_space" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, bboss99.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

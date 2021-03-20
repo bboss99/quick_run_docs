@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61994f97-c76b-47d7-ad1a-72666e4bb7a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/quick_run_docs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Animation/selectAllAnimated.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Animation/setAnimationRange.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArrayModifier/step_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArrayModifier/step_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArrayModifier/step_03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArrayModifier/step_04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dev/_m_Foo/Foo/A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dev/_m_Foo/Foo/B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dev/_m_Foo/Foo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dev/_p_Foo/Foo/A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dev/_p_Foo/Foo/B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dev/_p_Foo/Foo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dev/one.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dev/open_boss_dir.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Duplicator/duplicateGrid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Duplicator/duplicateRadial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/General/creteObjForEachMat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Materials/changeColorToMaterialCol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modeling/createEmptyCurve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modeling/createOneCPCurve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modeling/creatingCurves.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modeling/separateFaces.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Renamer/step_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Renamer/step_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Renamer/step_03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Renamer/step_04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rigging/createBonesAtSel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rigging/rigSeleceedObjs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/clipping_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Turntable/step_01_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Turntable/step_01_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Turntable/step_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Turntable/turnAroundCamera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/OUTLINER/purge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/TEXT_EDITOR/_add_presets_files/all_ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/TEXT_EDITOR/_add_presets_files/boss_operator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/TEXT_EDITOR/_add_presets_files/boss_operator_ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/TEXT_EDITOR/_add_presets_files/button_at_center.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/TEXT_EDITOR/_add_presets_files/button_at_mouse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/TEXT_EDITOR/_add_presets_files/create_named_cube.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/TEXT_EDITOR/_add_presets_files/create_named_cube_op.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/TEXT_EDITOR/_add_ui_files/button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/TEXT_EDITOR/_add_ui_files/checkBox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/TEXT_EDITOR/_add_ui_files/floatField.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/TEXT_EDITOR/_add_ui_files/intField.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/TEXT_EDITOR/_add_ui_files/textField.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/TEXT_EDITOR/_add_ui_files/vectorBooleanField.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/TEXT_EDITOR/_add_ui_files/vectorFloatField.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/TEXT_EDITOR/_add_ui_files/vectorIntField.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/TEXT_EDITOR/_d_AddPresets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/TEXT_EDITOR/_d_AddUI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/TEXT_EDITOR/run_clipboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/TEXT_EDITOR/run_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/TEXT_EDITOR/temp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/TEXT_EDITOR/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/VIEW_3D/_d_a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/VIEW_3D/_pie_menu.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/VIEW_3D/_pie_menu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/VIEW_3D/pie_menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_SPACES/VIEW_3D/run_clipboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_d_create_mesh2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_duplicateGrid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all_uis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/purge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_clipboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_qr_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testttttttttttttttttttttttttttttttttt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common/convert_script_to_addon.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common/naming_conventions.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common/toolTipImages.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../files/dummy_paths.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../files/introduction.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../files/links.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../files/redundant.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../files/settings_qr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../files/settings_qr_free.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../files/spaces.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getting_started/Installation.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getting_started/imgs/qr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getting_started/imgs/qr_free.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getting_started/introduction.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getting_started/quick_run_free.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getting_started/quick_start.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imgs/imp_buttons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imgs/qr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../imgs/qr_free.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../make.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../misc/developer.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../misc/future_update.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qr/change_root.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qr/dynamic_menu.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qr/menu.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qr/multiple_ui_elements.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qr/qr_introduction.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qr/quick_run.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qr/settings.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qr/text_editor_scripts.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qr/use_space.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuts/array_modifier.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuts/basics.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuts/boss_ui.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuts/duplicator.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuts/rename_selected.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuts/turn_around_camera.rst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1qenUMTD3uPTz8S7zIkIdBYQJe7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Docs\quick_run_docs\codes\Dev" />
+    </key>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61994f97-c76b-47d7-ad1a-72666e4bb7a1" name="Default Changelist" comment="" />
+      <created>1617448937502</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617448937502</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../../Blender Files/Programs/common/boss/ui_creator.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
