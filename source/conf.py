@@ -10,7 +10,7 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
+import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
@@ -41,9 +41,16 @@ extensions = [
     'sphinxcontrib.contentui',
 ]
 
-intersphinx_mapping = {
-    'boss': ('https://bboss99.github.io/boss_docs/', None),
-}
+param_1 = os.getenv("PARAM_1")
+
+if param_1 == 'local':
+    intersphinx_mapping = {
+        'boss': ('file:///D:/Docs/boss_docs/build_local/html', '../../boss_docs/build_local/html/objects.inv')
+    }
+else:
+    intersphinx_mapping = {
+        'boss': ('https://bboss99.github.io/boss_docs/', None),
+    }
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

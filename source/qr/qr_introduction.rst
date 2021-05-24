@@ -44,3 +44,6 @@ How it will do it, go through pages in this section to find out.
 
     Just by pressing those button, you saved 30 seconds to 1 minute!!
 
+    Point to reiterate is, if you got the hang of saving scripts, you would easily have huge number of scripts(>1000).
+    This addon will help you with that. 
+
