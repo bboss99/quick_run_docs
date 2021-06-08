@@ -43,4 +43,4 @@ if __name__ == "__main__":
     register()
 
 # test call
-# bpy.ops.boss.create_cube()
+# bpy.ops.boss.create_cube("INVOKE_DEFAULT")

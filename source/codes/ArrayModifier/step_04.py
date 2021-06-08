@@ -16,7 +16,7 @@ def create_grid():
     bpy.context.object.modifiers["Array"].count = 3
     # it's named Array.001 by default
     bpy.context.object.modifiers["Array.001"].count = 3
-    bpy.context.object.modifiers["Array.002"].count = 3
+    bpy.context.object.modifiers["Array.002"].count = 1
 
     # change step = 2
     bpy.context.object.modifiers["Array"].relative_offset_displace[0] = 2

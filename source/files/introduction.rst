@@ -20,10 +20,10 @@ a python file in a folder, then run the operator and you see a button for that f
 These are two screenshot of two versions.
 
 .. image:: imgs/qr.png
-   :width: 45%
+   :width: 90%
    :alt: 'quick run'
 .. image:: imgs/qr_free.png
-   :width: 45%
+   :width: 90%
    :alt: 'quick run free'
 
 

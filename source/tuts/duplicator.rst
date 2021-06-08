@@ -39,7 +39,7 @@ So, we need a way to duplicate/create objects.
     This can have bugs.
 
 
-..  literalinclude:: ../codes/Duplicator/duplicateGrid.py
+..  literalinclude:: ../codes/Duplicator/duplicateGrid2.py
     :language: python
     :linenos:
 
